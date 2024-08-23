@@ -1,0 +1,18 @@
+GET http://localhost:3000/mentors 
+
+###
+
+POST http://localhost:3000/bookings 
+Content-Type: application/json 
+
+{
+    "studentName":"kay",
+    "mentorId":"1",
+    "duration":30,
+    "date":"2024-08-23T11:24:01.665Z"
+
+}
+
+###
+
+GET http://localhost:3000/bookings
